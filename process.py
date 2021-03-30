@@ -1,3 +1,4 @@
+from sklearn.decomposition import PCA
 from scipy.stats import pearsonr
 import seaborn as sns
 import numpy as np
@@ -83,11 +84,11 @@ def draw_pairs_plot(data, savepath="./iris-pair-plot.png"):
         print("{:<30}  {:<10}".format(item[0], str(item[1])))
 
 
-def draw_qq_plot_help(data, xname, yname, ax):
+def draw_qq_plot_help(data, xname, yname, ax, color=['steelblue', 'red']):
     ls1 = sorted(data[xname])
     ls2 = sorted(data[yname])
-    sns.regplot(x=ls2, y=ls1, ci=None, color='steelblue',
-                line_kws={'color': 'r'}, ax=ax, label=xname+'-'+yname)
+    sns.regplot(x=ls2, y=ls1, ci=None, color=color[0],
+                line_kws={'color': color[1]}, ax=ax, label=xname+'-'+yname)
     ax.legend()
 
 
@@ -103,6 +104,69 @@ def draw_qq_plot(data, savepath):
             else:
                 draw_qq_plot_help(data, labels[i], labels[j], ax=axes[j, i])
     plt.savefig(savepath, dpi=600)
+    # plt.show()
+
+
+def norm_process(data, type=0):
+    features = list(data.columns)[:-1]
+    data2 = data[features]
+    if type == 0:
+        data3 = (data2-data2.min())/(data2.max() - data2.min())
+    else:
+        data3 = (data2-data2.mean())/(data2.std())
+    data4 = pd.concat([data3, data[list(data.columns)[-1]]], axis=1)
+    return data4
+
+
+def draw_different_qq_plot(data1, data2, savepath):
+    fig, axes = plt.subplots(3, 4, figsize=[15, 15])
+    labels = list(data1.columns)[:-1]
+    px = 0
+    for i in range(4):
+        py = 0
+        for j in range(4):
+            if i % 2 == 0 and i != j:
+                draw_qq_plot_help(data2, labels[i], labels[j], ax=axes[py, px], color=[
+                                  'green', 'orange'])
+                py += 1
+            elif i % 2 == 1 and i-1 != j:
+                draw_qq_plot_help(
+                    data1, labels[i-1], labels[j], ax=axes[py, px])
+                py += 1
+
+        px += 1
+        # if j == i:
+        #     axes[j, i].axis('off')
+        # elif j < i:
+        #     draw_qq_plot_help(
+        #         data2, labels[j], labels[i], ax=axes[j, i], color=['green', 'orange'])
+        # elif j > i:
+        #     draw_qq_plot_help(data1, labels[i], labels[j], ax=axes[j, i])
+    plt.savefig(savepath, dpi=600)
+    # plt.show()
+
+
+def draw_pca(data):
+    pca = PCA(n_components=2)
+
+    columns = list(data.columns)
+    X = data[columns[:-1]]
+    y = data[columns[-1]]
+
+    target_values = data.drop_duplicates(
+        ['variety'], keep="last")['variety'].values
+    print(target_values)
+    X_p = pca.fit(X).transform(X)
+
+    ax = plt.figure()
+    for c, i, target_name in zip(">o*", target_values, target_values):
+        plt.scatter(X_p[y == i, 0],
+                    X_p[y == i, 1], marker=c, label=target_name)
+    plt.xlabel('Dimension1')
+    plt.ylabel('Dimension2')
+    plt.title("Iris PCA analysis")
+    plt.legend()
+    plt.savefig("./iris-pca.png", dpi=600)
     plt.show()
 
 
@@ -116,4 +180,12 @@ if __name__ == '__main__':
     # print(f"Five number: ({minx}, {q1}, {mid}, {q3}, {maxv})")
     # draw_different_box(iris_data, attribute='sepal.length')
     # draw_pairs_plot(iris_data, './iris-pair-plot-pearson.png')
-    draw_qq_plot(iris_data, "./iris-qq-test.png")
+    # draw_qq_plot(iris_data, "./iris-qq-test.png")
+    iris_minmax_data = norm_process(iris_data, type=0)
+    # draw_qq_plot(iris_minmax_data, './iris-qq-minmax.png')
+    iris_zscore_data = norm_process(iris_data, type=1)
+    # draw_qq_plot(iris_zscore_data, './iris-qq-zscore.png')
+    # draw_different_qq_plot(
+    #     iris_minmax_data, iris_zscore_data, './iris-qq-diff2.png')
+
+    draw_pca(iris_data)
