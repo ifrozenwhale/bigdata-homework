@@ -53,12 +53,9 @@ def five_number(nums):
     Q1 = np.percentile(nums, 25)
     Median = np.median(nums)
     Q3 = np.percentile(nums, 75)
-
     IQR = Q3-Q1
-    lower_limit = Q1-1.5*IQR  # 下限值
-    upper_limit = Q3+1.5*IQR  # 上限值
 
-    return Minimum, Q1, Median, Q3, Maximum, lower_limit, upper_limit
+    return Minimum, Q1, Median, Q3, Maximum
 
 
 def draw_pairs_plot(data, savepath="./iris-pair-plot.png"):
@@ -170,13 +167,17 @@ def draw_pca(data):
     plt.show()
 
 
+def calculate_cov(data):
+    return np.cov(data[data.columns[:-1]], rowvar=False)
+
+
 if __name__ == '__main__':
     plt.style.use("seaborn-whitegrid")
     iris_data = load_data(filepath="./iris-data/iris.csv")
     length_data = iris_data['sepal.length']
     # draw_hist(length_data, savepath="./iris_hist_len.png")
     # draw_box(iris_data)
-    # minx, q1, mid, q3, maxv, _, _ = five_number(length_data)
+    # minx, q1, mid, q3, maxv = five_number(length_data)
     # print(f"Five number: ({minx}, {q1}, {mid}, {q3}, {maxv})")
     # draw_different_box(iris_data, attribute='sepal.length')
     # draw_pairs_plot(iris_data, './iris-pair-plot-pearson.png')
@@ -188,4 +189,6 @@ if __name__ == '__main__':
     # draw_different_qq_plot(
     #     iris_minmax_data, iris_zscore_data, './iris-qq-diff2.png')
 
-    draw_pca(iris_data)
+    # draw_pca(iris_data)
+    cov = calculate_cov(iris_data)
+    print(cov)
