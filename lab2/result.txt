@@ -1,0 +1,558 @@
+--------------------------------------------------
+K:     6, eta: 0.01
+epoch:     1, RMSE on training set: 0.986364125009621
+epoch:     1, RMSE on validation set : 1.123978873081148
+epoch:     2, RMSE on training set: 0.9286830763342268
+epoch:     2, RMSE on validation set : 0.9270991994767858
+epoch:     3, RMSE on training set: 0.91762240045924
+epoch:     3, RMSE on validation set : 0.9208730879758604
+epoch:     4, RMSE on training set: 0.9148247355735128
+epoch:     4, RMSE on validation set : 0.918906556282094
+epoch:     5, RMSE on training set: 0.9123811655396922
+epoch:     5, RMSE on validation set : 0.9167389955023606
+epoch:     6, RMSE on training set: 0.9094274503216437
+epoch:     6, RMSE on validation set : 0.9138199990227244
+epoch:     7, RMSE on training set: 0.9054891993584704
+epoch:     7, RMSE on validation set : 0.9096179138531476
+epoch:     8, RMSE on training set: 0.9001740349139569
+epoch:     8, RMSE on validation set : 0.9037431665016341
+epoch:     9, RMSE on training set: 0.893470263783775
+epoch:     9, RMSE on validation set : 0.8964045938841814
+epoch:    10, RMSE on training set: 0.885994375145104
+epoch:    10, RMSE on validation set : 0.8885025912592731
+epoch:    11, RMSE on training set: 0.8786212183879198
+epoch:    11, RMSE on validation set : 0.8809695219160238
+epoch:    12, RMSE on training set: 0.8719232653386825
+epoch:    12, RMSE on validation set : 0.8742759395546384
+epoch:    13, RMSE on training set: 0.8660791555705286
+epoch:    13, RMSE on validation set : 0.8685057611055949
+epoch:    14, RMSE on training set: 0.8610535536135655
+epoch:    14, RMSE on validation set : 0.8635763819432581
+epoch:    15, RMSE on training set: 0.8567424675085558
+epoch:    15, RMSE on validation set : 0.8593679980428396
+epoch:    16, RMSE on training set: 0.8530362065713731
+epoch:    16, RMSE on validation set : 0.8557682791668397
+epoch:    17, RMSE on training set: 0.8498376102303521
+epoch:    17, RMSE on validation set : 0.8526810062488661
+epoch:    18, RMSE on training set: 0.847064628698375
+epoch:    18, RMSE on validation set : 0.8500249571983405
+epoch:    19, RMSE on training set: 0.8446489291388715
+epoch:    19, RMSE on validation set : 0.8477315604104396
+epoch:    20, RMSE on training set: 0.8425338661359335
+epoch:    20, RMSE on validation set : 0.8457430034086092
+epoch:    21, RMSE on training set: 0.8406725558688963
+epoch:    21, RMSE on validation set : 0.8440107548294303
+epoch:    22, RMSE on training set: 0.8390261912521629
+epoch:    22, RMSE on validation set : 0.8424942937871107
+epoch:    23, RMSE on training set: 0.8375626188378216
+epoch:    23, RMSE on validation set : 0.84115995446815
+epoch:    24, RMSE on training set: 0.83625516214088
+epoch:    24, RMSE on validation set : 0.8399798708839311
+epoch:    25, RMSE on training set: 0.8350816567973498
+epoch:    25, RMSE on validation set : 0.8389310294514585
+epoch:    26, RMSE on training set: 0.834023657864954
+epoch:    26, RMSE on validation set : 0.8379944358798425
+epoch:    27, RMSE on training set: 0.8330657844133407
+epoch:    27, RMSE on validation set : 0.8371543966141984
+epoch:    28, RMSE on training set: 0.8321951749003119
+epoch:    28, RMSE on validation set : 0.8363979099590726
+epoch:    29, RMSE on training set: 0.8314010343492638
+epoch:    29, RMSE on validation set : 0.8357141585913742
+epoch:    30, RMSE on training set: 0.8306742594276467
+epoch:    30, RMSE on validation set : 0.8350940929694588
+--------------------------------------------------
+K:     7, eta: 0.01
+epoch:     1, RMSE on training set: 0.9834606914974524
+epoch:     1, RMSE on validation set : 1.1161746022452483
+epoch:     2, RMSE on training set: 0.9278794153700896
+epoch:     2, RMSE on validation set : 0.926424956688787
+epoch:     3, RMSE on training set: 0.9169623185509941
+epoch:     3, RMSE on validation set : 0.9201247440511053
+epoch:     4, RMSE on training set: 0.9138886976517673
+epoch:     4, RMSE on validation set : 0.9177739575324592
+epoch:     5, RMSE on training set: 0.910984931649167
+epoch:     5, RMSE on validation set : 0.9149979106532261
+epoch:     6, RMSE on training set: 0.90734084818084
+epoch:     6, RMSE on validation set : 0.9111794672826532
+epoch:     7, RMSE on training set: 0.9024139799809269
+epoch:     7, RMSE on validation set : 0.9057293967448984
+epoch:     8, RMSE on training set: 0.8958010186218259
+epoch:     8, RMSE on validation set : 0.8983092250033816
+epoch:     9, RMSE on training set: 0.8876566899571859
+epoch:     9, RMSE on validation set : 0.8894054712091978
+epoch:    10, RMSE on training set: 0.8789420165391033
+epoch:    10, RMSE on validation set : 0.8803025715561942
+epoch:    11, RMSE on training set: 0.8707669747629382
+epoch:    11, RMSE on validation set : 0.8720964488482273
+epoch:    12, RMSE on training set: 0.8636716068576069
+epoch:    12, RMSE on validation set : 0.8651826860365623
+epoch:    13, RMSE on training set: 0.8576955553634454
+epoch:    13, RMSE on validation set : 0.8595069886477847
+epoch:    14, RMSE on training set: 0.8526871189994137
+epoch:    14, RMSE on validation set : 0.8548631354876981
+epoch:    15, RMSE on training set: 0.8484655849567532
+epoch:    15, RMSE on validation set : 0.8510332502775163
+epoch:    16, RMSE on training set: 0.8448730634051732
+epoch:    16, RMSE on validation set : 0.8478333925758899
+epoch:    17, RMSE on training set: 0.8417838631194322
+epoch:    17, RMSE on validation set : 0.8451211807791049
+epoch:    18, RMSE on training set: 0.8391009697138816
+epoch:    18, RMSE on validation set : 0.8427905330312894
+epoch:    19, RMSE on training set: 0.836749905396746
+epoch:    19, RMSE on validation set : 0.8407633929688038
+epoch:    20, RMSE on training set: 0.8346731304526035
+epoch:    20, RMSE on validation set : 0.8389821122941469
+epoch:    21, RMSE on training set: 0.8328256725610358
+epoch:    21, RMSE on validation set : 0.8374035276118499
+epoch:    22, RMSE on training set: 0.8311719054560548
+epoch:    22, RMSE on validation set : 0.8359947057535223
+epoch:    23, RMSE on training set: 0.8296832262834264
+epoch:    23, RMSE on validation set : 0.8347300001682496
+epoch:    24, RMSE on training set: 0.8283363883515964
+epoch:    24, RMSE on validation set : 0.8335890382261784
+epoch:    25, RMSE on training set: 0.8271122959944315
+epoch:    25, RMSE on validation set : 0.8325553380454773
+epoch:    26, RMSE on training set: 0.8259951202182315
+epoch:    26, RMSE on validation set : 0.8316153441225286
+epoch:    27, RMSE on training set: 0.8249716367728196
+epoch:    27, RMSE on validation set : 0.8307577432559501
+epoch:    28, RMSE on training set: 0.8240307203840518
+epoch:    28, RMSE on validation set : 0.8299729716284696
+epoch:    29, RMSE on training set: 0.8231629512207078
+epoch:    29, RMSE on validation set : 0.8292528550818993
+epoch:    30, RMSE on training set: 0.8223603043556138
+epoch:    30, RMSE on validation set : 0.8285903436808753
+--------------------------------------------------
+K:     8, eta: 0.01
+epoch:     1, RMSE on training set: 0.980709861950912
+epoch:     1, RMSE on validation set : 1.125684007244314
+epoch:     2, RMSE on training set: 0.9278904684081325
+epoch:     2, RMSE on validation set : 0.9264123882104283
+epoch:     3, RMSE on training set: 0.9166861017859391
+epoch:     3, RMSE on validation set : 0.91991140766374
+epoch:     4, RMSE on training set: 0.9133643570997111
+epoch:     4, RMSE on validation set : 0.9174168415658304
+epoch:     5, RMSE on training set: 0.9100263630420315
+epoch:     5, RMSE on validation set : 0.9142748054973947
+epoch:     6, RMSE on training set: 0.9056366040058957
+epoch:     6, RMSE on validation set : 0.9097523764300738
+epoch:     7, RMSE on training set: 0.8996464025925477
+epoch:     7, RMSE on validation set : 0.9033868565283442
+epoch:     8, RMSE on training set: 0.8920736268119224
+epoch:     8, RMSE on validation set : 0.8955163129740544
+epoch:     9, RMSE on training set: 0.8837336605692914
+epoch:     9, RMSE on validation set : 0.887226208628961
+epoch:    10, RMSE on training set: 0.8756125064425639
+epoch:    10, RMSE on validation set : 0.879467493541146
+epoch:    11, RMSE on training set: 0.8682587394626916
+epoch:    11, RMSE on validation set : 0.8726365068071722
+epoch:    12, RMSE on training set: 0.8618114821088981
+epoch:    12, RMSE on validation set : 0.8667439913917262
+epoch:    13, RMSE on training set: 0.8562103450974721
+epoch:    13, RMSE on validation set : 0.861660003145605
+epoch:    14, RMSE on training set: 0.8513361637662985
+epoch:    14, RMSE on validation set : 0.8572410208812408
+epoch:    15, RMSE on training set: 0.8470701167887524
+epoch:    15, RMSE on validation set : 0.8533664720408435
+epoch:    16, RMSE on training set: 0.8433101338559883
+epoch:    16, RMSE on validation set : 0.8499412713538341
+epoch:    17, RMSE on training set: 0.8399725780603104
+epoch:    17, RMSE on validation set : 0.8468909109167798
+epoch:    18, RMSE on training set: 0.836990029081408
+epoch:    18, RMSE on validation set : 0.8441565097244529
+epoch:    19, RMSE on training set: 0.8343083424200779
+epoch:    19, RMSE on validation set : 0.8416910146792774
+epoch:    20, RMSE on training set: 0.8318838780879626
+epoch:    20, RMSE on validation set : 0.8394564084271413
+epoch:    21, RMSE on training set: 0.8296811712927196
+epoch:    21, RMSE on validation set : 0.8374216582962039
+epoch:    22, RMSE on training set: 0.827671101305101
+epoch:    22, RMSE on validation set : 0.8355612099630838
+epoch:    23, RMSE on training set: 0.8258295143326572
+epoch:    23, RMSE on validation set : 0.8338538822727621
+epoch:    24, RMSE on training set: 0.8241362118733601
+epoch:    24, RMSE on validation set : 0.8322820462385019
+epoch:    25, RMSE on training set: 0.8225742058553825
+epoch:    25, RMSE on validation set : 0.8308309926452003
+epoch:    26, RMSE on training set: 0.8211291529835394
+epoch:    26, RMSE on validation set : 0.8294884185380621
+epoch:    27, RMSE on training set: 0.8197889032623958
+epoch:    27, RMSE on validation set : 0.8282439902449097
+epoch:    28, RMSE on training set: 0.8185431225572125
+epoch:    28, RMSE on validation set : 0.8270889631406558
+epoch:    29, RMSE on training set: 0.8173829692777863
+epoch:    29, RMSE on validation set : 0.8260158525857072
+epoch:    30, RMSE on training set: 0.8163008177173816
+epoch:    30, RMSE on validation set : 0.8250181565629686
+--------------------------------------------------
+K:     9, eta: 0.01
+epoch:     1, RMSE on training set: 0.9795387926198547
+epoch:     1, RMSE on validation set : 1.139751400790397
+epoch:     2, RMSE on training set: 0.9278826245763104
+epoch:     2, RMSE on validation set : 0.9260110711223052
+epoch:     3, RMSE on training set: 0.9159620438009092
+epoch:     3, RMSE on validation set : 0.9187764430928449
+epoch:     4, RMSE on training set: 0.9119357919660043
+epoch:     4, RMSE on validation set : 0.91514447152584
+epoch:     5, RMSE on training set: 0.907228797519157
+epoch:     5, RMSE on validation set : 0.9099355005974025
+epoch:     6, RMSE on training set: 0.9004830928605622
+epoch:     6, RMSE on validation set : 0.9022537337415052
+epoch:     7, RMSE on training set: 0.8915937711519438
+epoch:     7, RMSE on validation set : 0.8927000055840811
+epoch:     8, RMSE on training set: 0.8819092653271549
+epoch:     8, RMSE on validation set : 0.883063033426923
+epoch:     9, RMSE on training set: 0.872802078681804
+epoch:     9, RMSE on validation set : 0.8744011748155776
+epoch:    10, RMSE on training set: 0.864704075978557
+epoch:    10, RMSE on validation set : 0.8668876595808559
+epoch:    11, RMSE on training set: 0.8575827128556506
+epoch:    11, RMSE on validation set : 0.8603917282242561
+epoch:    12, RMSE on training set: 0.8513090014031983
+epoch:    12, RMSE on validation set : 0.8547403562566842
+epoch:    13, RMSE on training set: 0.8457598260441318
+epoch:    13, RMSE on validation set : 0.8497916149467323
+epoch:    14, RMSE on training set: 0.8408351239807592
+epoch:    14, RMSE on validation set : 0.8454378223114759
+epoch:    15, RMSE on training set: 0.8364537575045818
+epoch:    15, RMSE on validation set : 0.841595109465554
+epoch:    16, RMSE on training set: 0.8325478867478621
+epoch:    16, RMSE on validation set : 0.8381953555485885
+epoch:    17, RMSE on training set: 0.8290592814049003
+epoch:    17, RMSE on validation set : 0.8351814350457383
+epoch:    18, RMSE on training set: 0.8259371258516633
+epoch:    18, RMSE on validation set : 0.8325044493405334
+epoch:    19, RMSE on training set: 0.82313673298238
+epoch:    19, RMSE on validation set : 0.8301220686451708
+epoch:    20, RMSE on training set: 0.8206187915998148
+epoch:    20, RMSE on validation set : 0.8279974847905259
+epoch:    21, RMSE on training set: 0.818348861865737
+epoch:    21, RMSE on validation set : 0.8260986591505203
+epoch:    22, RMSE on training set: 0.8162969295604446
+epoch:    22, RMSE on validation set : 0.824397701723354
+epoch:    23, RMSE on training set: 0.8144369439734664
+epoch:    23, RMSE on validation set : 0.8228703291870711
+epoch:    24, RMSE on training set: 0.8127463419290486
+epoch:    24, RMSE on validation set : 0.8214953962436203
+epoch:    25, RMSE on training set: 0.8112055863516405
+epoch:    25, RMSE on validation set : 0.8202544970780034
+epoch:    26, RMSE on training set: 0.809797743015677
+epoch:    26, RMSE on validation set : 0.8191316252311582
+epoch:    27, RMSE on training set: 0.808508106640732
+epoch:    27, RMSE on validation set : 0.8181128769656131
+epoch:    28, RMSE on training set: 0.8073238779015761
+epoch:    28, RMSE on validation set : 0.8171861862997808
+epoch:    29, RMSE on training set: 0.8062338878486498
+epoch:    29, RMSE on validation set : 0.8163410851856303
+epoch:    30, RMSE on training set: 0.8052283642554666
+epoch:    30, RMSE on validation set : 0.8155684866037295
+--------------------------------------------------
+K:    10, eta: 0.01
+epoch:     1, RMSE on training set: 0.979109968870996
+epoch:     1, RMSE on validation set : 1.1431058460451027
+epoch:     2, RMSE on training set: 0.9278752742791254
+epoch:     2, RMSE on validation set : 0.9256742695528812
+epoch:     3, RMSE on training set: 0.9159423644299228
+epoch:     3, RMSE on validation set : 0.9184001417514224
+epoch:     4, RMSE on training set: 0.9121044434748791
+epoch:     4, RMSE on validation set : 0.9151299549692661
+epoch:     5, RMSE on training set: 0.9079594869499703
+epoch:     5, RMSE on validation set : 0.9108563747984063
+epoch:     6, RMSE on training set: 0.9023057043886741
+epoch:     6, RMSE on validation set : 0.9046896947932074
+epoch:     7, RMSE on training set: 0.8945682392398353
+epoch:     7, RMSE on validation set : 0.8963276891716198
+epoch:     8, RMSE on training set: 0.8851532419817137
+epoch:     8, RMSE on validation set : 0.8867261847892042
+epoch:     9, RMSE on training set: 0.8753934873344927
+epoch:     9, RMSE on validation set : 0.8773428075137396
+epoch:    10, RMSE on training set: 0.8663363950609984
+epoch:    10, RMSE on validation set : 0.8689393379260597
+epoch:    11, RMSE on training set: 0.8583167478787643
+epoch:    11, RMSE on validation set : 0.8616511730605172
+epoch:    12, RMSE on training set: 0.8513036347186376
+epoch:    12, RMSE on validation set : 0.8553584398287529
+epoch:    13, RMSE on training set: 0.8451573821604559
+epoch:    13, RMSE on validation set : 0.8498875158381954
+epoch:    14, RMSE on training set: 0.8397355279181056
+epoch:    14, RMSE on validation set : 0.8450890437430838
+epoch:    15, RMSE on training set: 0.8349233784015044
+epoch:    15, RMSE on validation set : 0.8408522644034186
+epoch:    16, RMSE on training set: 0.8306335503616397
+epoch:    16, RMSE on validation set : 0.8370963859908566
+epoch:    17, RMSE on training set: 0.8267978502726439
+epoch:    17, RMSE on validation set : 0.8337589978755346
+epoch:    18, RMSE on training set: 0.8233603448748187
+epoch:    18, RMSE on validation set : 0.830788118143518
+epoch:    19, RMSE on training set: 0.8202732041727102
+epoch:    19, RMSE on validation set : 0.8281382324659919
+epoch:    20, RMSE on training set: 0.8174945541340909
+epoch:    20, RMSE on validation set : 0.8257688298996291
+epoch:    21, RMSE on training set: 0.814987405405044
+epoch:    21, RMSE on validation set : 0.8236440282826196
+epoch:    22, RMSE on training set: 0.8127190747184317
+epoch:    22, RMSE on validation set : 0.8217324599262168
+epoch:    23, RMSE on training set: 0.8106608001000676
+epoch:    23, RMSE on validation set : 0.8200070691860304
+epoch:    24, RMSE on training set: 0.8087874090934605
+epoch:    24, RMSE on validation set : 0.8184447476747042
+epoch:    25, RMSE on training set: 0.8070769847902667
+epoch:    25, RMSE on validation set : 0.8170258520305056
+epoch:    26, RMSE on training set: 0.8055105202255161
+epoch:    26, RMSE on validation set : 0.8157336798084619
+epoch:    27, RMSE on training set: 0.8040715716247859
+epoch:    27, RMSE on validation set : 0.8145539678466954
+epoch:    28, RMSE on training set: 0.8027459252045549
+epoch:    28, RMSE on validation set : 0.81347445241926
+epoch:    29, RMSE on training set: 0.8015212891505661
+epoch:    29, RMSE on validation set : 0.8124845064945339
+epoch:    30, RMSE on training set: 0.8003870173992542
+epoch:    30, RMSE on validation set : 0.8115748524883397
+--------------------------------------------------
+K:    11, eta: 0.01
+epoch:     1, RMSE on training set: 0.9768043153501066
+epoch:     1, RMSE on validation set : 1.1400215111880507
+epoch:     2, RMSE on training set: 0.9273367018041405
+epoch:     2, RMSE on validation set : 0.9254250473378298
+epoch:     3, RMSE on training set: 0.9152378042220826
+epoch:     3, RMSE on validation set : 0.9178276058879976
+epoch:     4, RMSE on training set: 0.9106853078535084
+epoch:     4, RMSE on validation set : 0.9136218615690496
+epoch:     5, RMSE on training set: 0.9050550026143446
+epoch:     5, RMSE on validation set : 0.9074210671773812
+epoch:     6, RMSE on training set: 0.8970246970696939
+epoch:     6, RMSE on validation set : 0.8986038608017851
+epoch:     7, RMSE on training set: 0.8870265966878752
+epoch:     7, RMSE on validation set : 0.8884616715113938
+epoch:     8, RMSE on training set: 0.8767037114531593
+epoch:     8, RMSE on validation set : 0.8787362454713706
+epoch:     9, RMSE on training set: 0.8671017695403422
+epoch:     9, RMSE on validation set : 0.8700785441597009
+epoch:    10, RMSE on training set: 0.858468745633716
+epoch:    10, RMSE on validation set : 0.8624716630375996
+epoch:    11, RMSE on training set: 0.8507514967351854
+epoch:    11, RMSE on validation set : 0.855727636365943
+epoch:    12, RMSE on training set: 0.8438263391880348
+epoch:    12, RMSE on validation set : 0.8496782467582962
+epoch:    13, RMSE on training set: 0.8375814434066006
+epoch:    13, RMSE on validation set : 0.8442105447059937
+epoch:    14, RMSE on training set: 0.8319347070345116
+epoch:    14, RMSE on validation set : 0.8392580109149691
+epoch:    15, RMSE on training set: 0.8268293816887339
+epoch:    15, RMSE on validation set : 0.8347831041063702
+epoch:    16, RMSE on training set: 0.8222235947574235
+epoch:    16, RMSE on validation set : 0.8307603272839919
+epoch:    17, RMSE on training set: 0.8180807071312579
+epoch:    17, RMSE on validation set : 0.8271643260666363
+epoch:    18, RMSE on training set: 0.8143637207821082
+epoch:    18, RMSE on validation set : 0.823964596423335
+epoch:    19, RMSE on training set: 0.8110338306518236
+epoch:    19, RMSE on validation set : 0.8211253943004118
+epoch:    20, RMSE on training set: 0.808051442741748
+epoch:    20, RMSE on validation set : 0.8186082016813104
+epoch:    21, RMSE on training set: 0.80537790949641
+epoch:    21, RMSE on validation set : 0.8163745916350393
+epoch:    22, RMSE on training set: 0.8029769831371079
+epoch:    22, RMSE on validation set : 0.8143884062688257
+epoch:    23, RMSE on training set: 0.8008156829268517
+epoch:    23, RMSE on validation set : 0.812616998508522
+epoch:    24, RMSE on training set: 0.798864632805875
+epoch:    24, RMSE on validation set : 0.811031699076083
+epoch:    25, RMSE on training set: 0.7970980332939678
+epoch:    25, RMSE on validation set : 0.809607775873722
+epoch:    26, RMSE on training set: 0.7954934226623829
+epoch:    26, RMSE on validation set : 0.8083241173713606
+epoch:    27, RMSE on training set: 0.7940313399592205
+epoch:    27, RMSE on validation set : 0.8071627991405113
+epoch:    28, RMSE on training set: 0.7926949607436841
+epoch:    28, RMSE on validation set : 0.8061086284131344
+epoch:    29, RMSE on training set: 0.7914697451111117
+epoch:    29, RMSE on validation set : 0.805148716518322
+epoch:    30, RMSE on training set: 0.7903431170806606
+epoch:    30, RMSE on validation set : 0.8042721010769837
+--------------------------------------------------
+K:    12, eta: 0.01
+epoch:     1, RMSE on training set: 0.9765086007261963
+epoch:     1, RMSE on validation set : 1.1460617914966316
+epoch:     2, RMSE on training set: 0.9274959847508709
+epoch:     2, RMSE on validation set : 0.9257548963600838
+epoch:     3, RMSE on training set: 0.915286088228192
+epoch:     3, RMSE on validation set : 0.9182831027783176
+epoch:     4, RMSE on training set: 0.9110474253912827
+epoch:     4, RMSE on validation set : 0.914741016348595
+epoch:     5, RMSE on training set: 0.9062589637491812
+epoch:     5, RMSE on validation set : 0.9099999977386158
+epoch:     6, RMSE on training set: 0.8996113730604953
+epoch:     6, RMSE on validation set : 0.9030528186928621
+epoch:     7, RMSE on training set: 0.8904398965243218
+epoch:     7, RMSE on validation set : 0.8934749681800837
+epoch:     8, RMSE on training set: 0.8792335741812107
+epoch:     8, RMSE on validation set : 0.8823141101087049
+epoch:     9, RMSE on training set: 0.867642749921045
+epoch:     9, RMSE on validation set : 0.8713464436078768
+epoch:    10, RMSE on training set: 0.8569867820016447
+epoch:    10, RMSE on validation set : 0.8615573851727294
+epoch:    11, RMSE on training set: 0.8476756433835173
+epoch:    11, RMSE on validation set : 0.8531518375303725
+epoch:    12, RMSE on training set: 0.8396546157484643
+epoch:    12, RMSE on validation set : 0.8460163180684476
+epoch:    13, RMSE on training set: 0.8327423376412778
+epoch:    13, RMSE on validation set : 0.8399521624447336
+epoch:    14, RMSE on training set: 0.8267539730780177
+epoch:    14, RMSE on validation set : 0.8347615552040654
+epoch:    15, RMSE on training set: 0.8215316230469324
+epoch:    15, RMSE on validation set : 0.8302771496572097
+epoch:    16, RMSE on training set: 0.8169470598229239
+epoch:    16, RMSE on validation set : 0.8263680503993062
+epoch:    17, RMSE on training set: 0.8128977118749863
+epoch:    17, RMSE on validation set : 0.8229352873135509
+epoch:    18, RMSE on training set: 0.80930155948646
+epoch:    18, RMSE on validation set : 0.819904138712149
+epoch:    19, RMSE on training set: 0.8060925286702142
+epoch:    19, RMSE on validation set : 0.8172169714906223
+epoch:    20, RMSE on training set: 0.8032167737395752
+epoch:    20, RMSE on validation set : 0.8148278316208855
+epoch:    21, RMSE on training set: 0.800629838489567
+epoch:    21, RMSE on validation set : 0.8126987984943514
+epoch:    22, RMSE on training set: 0.7982945542468824
+epoch:    22, RMSE on validation set : 0.8107976914466182
+epoch:    23, RMSE on training set: 0.7961795046508638
+epoch:    23, RMSE on validation set : 0.8090966772254101
+epoch:    24, RMSE on training set: 0.7942579017211083
+epoch:    24, RMSE on validation set : 0.8075714238371633
+epoch:    25, RMSE on training set: 0.7925067496678507
+epoch:    25, RMSE on validation set : 0.8062005624903661
+epoch:    26, RMSE on training set: 0.7909062074458268
+epoch:    26, RMSE on validation set : 0.8049653134398945
+epoch:    27, RMSE on training set: 0.7894390899685552
+epoch:    27, RMSE on validation set : 0.8038491957568976
+epoch:    28, RMSE on training set: 0.788090468498262
+epoch:    28, RMSE on validation set : 0.8028377803084906
+epoch:    29, RMSE on training set: 0.7868473440460874
+epoch:    29, RMSE on validation set : 0.801918467195702
+epoch:    30, RMSE on training set: 0.7856983759792779
+epoch:    30, RMSE on validation set : 0.801080280200017
+--------------------------------------------------
+K:    13, eta: 0.01
+epoch:     1, RMSE on training set: 0.975810240019304
+epoch:     1, RMSE on validation set : 1.1435532756185263
+epoch:     2, RMSE on training set: 0.9272483671426035
+epoch:     2, RMSE on validation set : 0.9250555585147062
+epoch:     3, RMSE on training set: 0.9149644315775154
+epoch:     3, RMSE on validation set : 0.9175080014159185
+epoch:     4, RMSE on training set: 0.9105048465129979
+epoch:     4, RMSE on validation set : 0.9135845622502728
+epoch:     5, RMSE on training set: 0.9053009029891393
+epoch:     5, RMSE on validation set : 0.9081508045361132
+epoch:     6, RMSE on training set: 0.8979525444043286
+epoch:     6, RMSE on validation set : 0.9001258024811802
+epoch:     7, RMSE on training set: 0.8878921811066408
+epoch:     7, RMSE on validation set : 0.8894110482877335
+epoch:     8, RMSE on training set: 0.8760128274689156
+epoch:     8, RMSE on validation set : 0.877587832027824
+epoch:     9, RMSE on training set: 0.8640939113339163
+epoch:     9, RMSE on validation set : 0.8663890463534977
+epoch:    10, RMSE on training set: 0.8532265720117438
+epoch:    10, RMSE on validation set : 0.8565647557132631
+epoch:    11, RMSE on training set: 0.8437013283553164
+epoch:    11, RMSE on validation set : 0.8482129601242191
+epoch:    12, RMSE on training set: 0.8354638837860988
+epoch:    12, RMSE on validation set : 0.8411741511079603
+epoch:    13, RMSE on training set: 0.8283560463924026
+epoch:    13, RMSE on validation set : 0.8352293591611788
+epoch:    14, RMSE on training set: 0.8222035570995884
+epoch:    14, RMSE on validation set : 0.8301728474986098
+epoch:    15, RMSE on training set: 0.8168458327888025
+epoch:    15, RMSE on validation set : 0.825831860956648
+epoch:    16, RMSE on training set: 0.8121458669122529
+epoch:    16, RMSE on validation set : 0.8220680797695439
+epoch:    17, RMSE on training set: 0.8079915452085209
+epoch:    17, RMSE on validation set : 0.8187732407045039
+epoch:    18, RMSE on training set: 0.8042930500773211
+epoch:    18, RMSE on validation set : 0.815863423398129
+epoch:    19, RMSE on training set: 0.8009789545934595
+epoch:    19, RMSE on validation set : 0.8132736609833219
+epoch:    20, RMSE on training set: 0.7979923433254011
+epoch:    20, RMSE on validation set : 0.8109534090563573
+epoch:    21, RMSE on training set: 0.7952875035209481
+epoch:    21, RMSE on validation set : 0.8088629601026789
+epoch:    22, RMSE on training set: 0.7928273070823646
+epoch:    22, RMSE on validation set : 0.8069707147763397
+epoch:    23, RMSE on training set: 0.7905812189739403
+epoch:    23, RMSE on validation set : 0.8052511569136629
+epoch:    24, RMSE on training set: 0.7885238102933612
+epoch:    24, RMSE on validation set : 0.8036833705219923
+epoch:    25, RMSE on training set: 0.7866336543448456
+epoch:    25, RMSE on validation set : 0.8022499576870022
+epoch:    26, RMSE on training set: 0.7848925045700332
+epoch:    26, RMSE on validation set : 0.8009362471812645
+epoch:    27, RMSE on training set: 0.7832846770498533
+epoch:    27, RMSE on validation set : 0.7997297125975552
+epoch:    28, RMSE on training set: 0.781796581068609
+epoch:    28, RMSE on validation set : 0.7986195415431674
+epoch:    29, RMSE on training set: 0.7804163573990144
+epoch:    29, RMSE on validation set : 0.7975963138564336
+epoch:    30, RMSE on training set: 0.779133595802376
+epoch:    30, RMSE on validation set : 0.7966517585131065
+--------------------------------------------------
+K:    14, eta: 0.01
+epoch:     1, RMSE on training set: 0.9748299177895505
+epoch:     1, RMSE on validation set : 1.1472588960906618
+epoch:     2, RMSE on training set: 0.926965546558871
+epoch:     2, RMSE on validation set : 0.9249154511655939
+epoch:     3, RMSE on training set: 0.9144394802257387
+epoch:     3, RMSE on validation set : 0.9168613850353854
+epoch:     4, RMSE on training set: 0.9095421905319859
+epoch:     4, RMSE on validation set : 0.9124121331278469
+epoch:     5, RMSE on training set: 0.9036147773135271
+epoch:     5, RMSE on validation set : 0.9062085589323056
+epoch:     6, RMSE on training set: 0.8953240868128036
+epoch:     6, RMSE on validation set : 0.8974477325178428
+epoch:     7, RMSE on training set: 0.8845640198174425
+epoch:     7, RMSE on validation set : 0.8865979691576377
+epoch:     8, RMSE on training set: 0.8725294465447738
+epoch:     8, RMSE on validation set : 0.8751002832093617
+epoch:     9, RMSE on training set: 0.8606156893285982
+epoch:     9, RMSE on validation set : 0.8641014887635419
+epoch:    10, RMSE on training set: 0.8496085023756386
+epoch:    10, RMSE on validation set : 0.8542155396626196
+epoch:    11, RMSE on training set: 0.8398099313599814
+epoch:    11, RMSE on validation set : 0.84562836393886
+epoch:    12, RMSE on training set: 0.8312385062847684
+epoch:    12, RMSE on validation set : 0.8382622283497351
+epoch:    13, RMSE on training set: 0.823782369483289
+epoch:    13, RMSE on validation set : 0.8319508223847862
+epoch:    14, RMSE on training set: 0.8172930509122952
+epoch:    14, RMSE on validation set : 0.8265250812618204
+epoch:    15, RMSE on training set: 0.8116254300335011
+epoch:    15, RMSE on validation set : 0.8218376272252308
+epoch:    16, RMSE on training set: 0.806650985917879
+epoch:    16, RMSE on validation set : 0.8177654330310704
+epoch:    17, RMSE on training set: 0.8022605754534151
+epoch:    17, RMSE on validation set : 0.8142072186043763
+epoch:    18, RMSE on training set: 0.7983634038507509
+epoch:    18, RMSE on validation set : 0.8110800485622112
+epoch:    19, RMSE on training set: 0.7948847129201941
+epoch:    19, RMSE on validation set : 0.8083161001887571
+epoch:    20, RMSE on training set: 0.7917631768008405
+epoch:    20, RMSE on validation set : 0.8058598568679214
+epoch:    21, RMSE on training set: 0.7889484391215046
+epoch:    21, RMSE on validation set : 0.803665792809516
+epoch:    22, RMSE on training set: 0.7863989787689034
+epoch:    22, RMSE on validation set : 0.8016965055775452
+epoch:    23, RMSE on training set: 0.7840803529779837
+epoch:    23, RMSE on validation set : 0.7999212059890327
+epoch:    24, RMSE on training set: 0.7819637919628247
+epoch:    24, RMSE on validation set : 0.7983144798422787
+epoch:    25, RMSE on training set: 0.7800250894768859
+epoch:    25, RMSE on validation set : 0.7968552617715755
+epoch:    26, RMSE on training set: 0.7782437301192312
+epoch:    26, RMSE on validation set : 0.79552598515347
+epoch:    27, RMSE on training set: 0.7766022021251762
+epoch:    27, RMSE on validation set : 0.7943118853641534
+epoch:    28, RMSE on training set: 0.7750854549116832
+epoch:    28, RMSE on validation set : 0.7932004382655364
+epoch:    29, RMSE on training set: 0.7736804698749374
+epoch:    29, RMSE on validation set : 0.7921809159030753
+epoch:    30, RMSE on training set: 0.7723759199428165
+epoch:    30, RMSE on validation set : 0.7912440405944794
