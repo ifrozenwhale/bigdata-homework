@@ -59,8 +59,13 @@ def LDA_to_mat(df, k=20):
         # print("review {} topic {}".format(t, topics_test[t]))
         try:
             for i in range(k):
-                mat[t, i] = topics_test[t][i][1]
+                mat[t, i] = 0
+            for i in range(len(topics_test[t])):
+                topic_idx = topics_test[t][i][0]
+                topic_prob = topics_test[t][i][1]
+                mat[t, topic_idx] = topic_prob
         except IndexError:
             pass
+
     np.save("./data/LDA_mat", mat)
     return mat

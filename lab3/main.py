@@ -89,13 +89,7 @@ def build_tfidf_mat():
 
 
 def evaluate(y_pred, y_test):
-    # if gbm:
-    # y_pred = gbm.predict(x_test, num_iteration=gbm.best_iteration)
-    # else:
-    # y_pred = gbm.predict(x_test)
-    # y_predict = np.argmax(y_pred, axis=1)  # 获得最大概率对应的标签
     y_predict = y_pred
-
     label_all = ['negative', 'positive']
     confusion_mat = metrics.confusion_matrix(y_test, y_predict)
     df = pd.DataFrame(confusion_mat, columns=label_all)
@@ -173,8 +167,8 @@ def test_model():
 def build_lda(train=False):
     words_df = load_data("./data/split_words.csv")
     if train:
-        train_LDA(words_df, 10)
-        LDA_to_mat(words_df, 10)
+        train_LDA(words_df, 20)
+        LDA_to_mat(words_df, 20)
 
     mat = np.load("./data/LDA_mat.npy")
     x_train, x_test, y_train, y_test = train_test_split(
@@ -211,8 +205,6 @@ if __name__ == '__main__':
 
     # 2. LDA
 
-    # train_LDA(words_df)
-
     # 3. 计算 tfidf
     # calculate_tf(df)
     # calculate_idf(df)
@@ -220,6 +212,6 @@ if __name__ == '__main__':
 
     # 将tf-idf矩阵抽取出来，元素a[i][j]表示j词在i类文本中的tf-idf权重
 
-    # build_model()
+    build_model()
 
-    build_lda(train=False)
+    # build_lda(train=False)
